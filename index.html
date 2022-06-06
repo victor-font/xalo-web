@@ -1,16 +1,21 @@
 <html>
+
 <head>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <link rel="stylesheet" href="diary.css">
+    <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./navbar/navbar.css">
 </head>
+
 <body>
     <navbar class="navbar">
         <ul class="navbar__ul">
-            <li class="navbar__li"><a class="menu-link" href="./diary/home.html">Home</a></li>
-            <li class="navbar__li"><a class="menu-link" href="./diary/who.html">Quiénes Somos</a></li>
-            <li class="navbar__li"><a class="menu-link" href="./diary/diary.html">Diario</a></li>
+            <a href="./index.html"><li class="navbar__li navbar__selected">Home</li></a>
+            <a href="./who/who.html"><li class="navbar__li">Quiénes Somos</li></a>
+            <a href="./qa/qa.html"><li class="navbar__li">Q&A</li></a>
+            <a href="./diary/diary.html"><li class="navbar__li">Diario</li></a>
         </ul>
     </navbar>
+    <p>Home Working!</p>
 </body>
+
 </html>
