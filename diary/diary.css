@@ -1,0 +1,32 @@
+.section {
+    padding: 30px 25%;
+}
+
+.day {
+    font-size: xx-large;
+    color: rgb(244, 193, 98);
+    padding: 0.5rem 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.image {
+    padding: 120px 90px;
+    margin-left: 3.5rem;
+    background-color: beige;
+}
+
+h3 {
+    font-size: large;
+    color: rgb(132, 124, 124);
+    font-weight: bold;
+    padding-bottom: 1rem;
+}

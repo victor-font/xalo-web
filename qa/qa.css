@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px 25%;
+}
+
+h3 {
+    color: rgb(132, 124, 124);
+    padding-bottom: 1rem;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2rem;
+}

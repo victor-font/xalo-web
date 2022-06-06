@@ -1,0 +1,34 @@
+.navbar {
+    width: 100%;
+}
+
+.navbar__ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar__li {
+    padding: 1.5rem 2.5rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.navbar__li:hover {
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: ease-in 200ms;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar__selected {
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+}
